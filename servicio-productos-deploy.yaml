@@ -28,7 +28,7 @@ spec:
       containers:
       serviceAccount: ventas
       - image: 96552333aa/servicio-productos:v3
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         name: servicio-productos
         ports:
         - containerPort: 8001
