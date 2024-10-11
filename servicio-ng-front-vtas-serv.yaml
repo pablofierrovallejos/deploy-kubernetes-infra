@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+    kompose.version: 1.21.0 (992df58d8)
+  labels:
+    io.kompose.service: servicio-ng-front-vtas
+  name: servicio-ng-front-vtas
+  namespace: ventas
+spec:
+  clusterIP: 10.100.85.181
+  clusterIPs:
+  - 10.100.85.181
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: "80"
+    nodePort: 30100
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    io.kompose.service: servicio-ng-front-vtas
+  sessionAffinity: None
+  type: NodePort
