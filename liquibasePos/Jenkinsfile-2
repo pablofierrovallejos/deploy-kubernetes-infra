@@ -3,12 +3,12 @@ pipeline {
     docker { image 'liquibase/liquibase:4.4.2' }
   }
   environment {
-    MARIADB_CREDS=credentials('mariadb-credentials')
+    MARIADB_CREDS=credentials('id_pass_mysql')
   }
   stages {
     stage('Status') {
       steps {
-        sh 'liquibase status --url="jdbc:mysql://192.168.32.11:3306/my_app" --changeLogFile=my_app-wrapper.xml --username=$MARIADB_CREDS_USR --password=$MARIADB_CREDS_PSW'
+        sh 'liquibase status --url="jdbc:mysql://192.168.2.234:3306/my_app" --changeLogFile=mi-changelog.xml --username=root --password=sasa'
       }
     }
     stage('Update') {
