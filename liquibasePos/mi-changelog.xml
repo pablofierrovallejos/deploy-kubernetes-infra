@@ -116,5 +116,10 @@
     </changeSet>
 	<changeSet id="25" author="Pablo Fierro" labels="sp_listarVentas_v1.sql" context="example-context">
         <sqlFile path="liquibasePos/sp_listarVentas_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
-    </changeSet>		
+    </changeSet>	
+	
+	<changeSet id="26" author="Pablo Fierro">
+        <sqlFile path="liquibasePos/tabla_costos_v1.sql	"/>
+    </changeSet>
+
 </databaseChangeLog>
