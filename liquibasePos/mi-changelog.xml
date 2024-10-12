@@ -24,7 +24,7 @@
 
 	
 	<changeSet id="2" author="Pablo Fierro">
-        <sqlFile path="tablas_v1_struct.sql"/>
+        <sqlFile path="liquibasePos/tablas_v1_struct.sql"/>
     </changeSet>
 	
 	
