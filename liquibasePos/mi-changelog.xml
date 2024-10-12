@@ -33,22 +33,22 @@
     </changeSet>	
 
 	<changeSet id="4" author="Pablo Fierro" labels="sp_consultaImagenCliente_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_consultaImagenCliente_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_consultaImagenCliente_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	<changeSet id="5" author="Pablo Fierro" labels="sp_consultaImagenCliente2_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_consultaImagenCliente2_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_consultaImagenCliente2_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	<changeSet id="6" author="Pablo Fierro" labels="sp_consultarmedicionenergia_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_consultarmedicionenergia_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_consultarmedicionenergia_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	<changeSet id="7" author="Pablo Fierro" labels="sp_consultarProducto_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_consultarProducto_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_consultarProducto_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>	
 	<changeSet id="8" author="Pablo Fierro" labels="sp_consultarVentas_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_consultarVentas_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_consultarVentas_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>	
 	<changeSet id="9" author="Pablo Fierro" labels="sp_estadisticaMeas_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_estadisticaMeas_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_estadisticaMeas_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>	
 	<changeSet id="10" author="Pablo Fierro" labels="sp_estadisticaMeasMes_v1.sql" context="example-context">
         <sqlFile path="liquibasePos/sp_estadisticaMeasMes_v1.sql"
@@ -65,13 +65,13 @@
 	
 	
 	<changeSet id="12" author="Pablo Fierro" labels="sp_estadisticaMeasDia_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_estadisticaMeasDia_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_estadisticaMeasDia_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>	
 	<changeSet id="13" author="Pablo Fierro" labels="sp_estadisticaProdMasVendidosCantidad_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_estadisticaProdMasVendidosCantidad_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_estadisticaProdMasVendidosCantidad_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	<changeSet id="14" author="Pablo Fierro" labels="sp_estadisticaProdMasVendidosMonto_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_estadisticaProdMasVendidosMonto_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_estadisticaProdMasVendidosMonto_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	<changeSet id="15" author="Pablo Fierro" labels="sp_estadisticaVentasMes_v1.sql" context="example-context">
         <sqlFile path="liquibasePos/sp_estadisticaVentasMes_v1.sql"
@@ -80,7 +80,7 @@
              stripComments="true" />
     </changeSet>
 	<changeSet id="16" author="Pablo Fierro" labels="sp_estadisticaVentasMes2_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_estadisticaVentasMes2_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_estadisticaVentasMes2_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	
 	<changeSet id="17" author="Pablo Fierro" labels="sp_estadisticaVentasMesBKP_v1.sql" context="example-context">
@@ -91,13 +91,13 @@
     </changeSet>	
 	
 	<changeSet id="18" author="Pablo Fierro" labels="sp_estadisticaVentasMesProd_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_estadisticaVentasMesProd_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_estadisticaVentasMesProd_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	<changeSet id="19" author="Pablo Fierro" labels="sp_insertaImagenCliente_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_insertaImagenCliente_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_insertaImagenCliente_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	<changeSet id="20" author="Pablo Fierro" labels="sp_insertarDetalleVenta_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_insertarDetalleVenta_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_insertarDetalleVenta_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>	
 	<changeSet id="21" author="Pablo Fierro" labels="sp_insertarMedicionEnergia_v1.sql" context="example-context">
         <sqlFile path="liquibasePos/sp_insertarMedicionEnergia_v1.sql"
@@ -106,15 +106,15 @@
              stripComments="true" />
     </changeSet>		
 	<changeSet id="22" author="Pablo Fierro" labels="sp_insertarProducto_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_insertarProducto_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_insertarProducto_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>	
 	<changeSet id="23" author="Pablo Fierro" labels="sp_insertarVenta_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_insertarVenta_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_insertarVenta_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>	
 	<changeSet id="24" author="Pablo Fierro" labels="sp_listarProductos_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_listarProductos_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_listarProductos_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>
 	<changeSet id="25" author="Pablo Fierro" labels="sp_listarVentas_v1.sql" context="example-context">
-        <sqlFile path="liquibasePos/sp_listarVentas_v1.sql"/>
+        <sqlFile path="liquibasePos/sp_listarVentas_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>		
 </databaseChangeLog>
