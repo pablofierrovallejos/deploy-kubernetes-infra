@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Status') {
       steps {
-        sh 'liquibase status --url="jdbc:mysql://192.168.2.248:3306/db_springboot_cloud" --changeLogFile=mi-changelog.xml --username=root --password=sasa'
+        sh 'liquibase status --url="jdbc:mysql://192.168.2.248:3306/db_springboot_cloud" --changeLogFile=liquibasePos/mi-changelog.xml --username=root --password=sasa'
       }
     }
     stage('Update') {
