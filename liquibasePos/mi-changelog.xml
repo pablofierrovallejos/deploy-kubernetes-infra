@@ -29,7 +29,7 @@
 	
 	
 	<changeSet id="3" author="Pablo Fierro" labels="sp_actualizarproducto_v1" context="example-context">
-        <sqlFile path="liquibasePos/sp_actualizarproducto_v1.sql"  splitStatements="false" ndDelimiter=";" stripComments="true" />
+        <sqlFile path="liquibasePos/sp_actualizarproducto_v1.sql" splitStatements="false" endDelimiter=";" stripComments="true" />
     </changeSet>	
 
 	<changeSet id="4" author="Pablo Fierro" labels="sp_consultaImagenCliente_v1.sql" context="example-context">
